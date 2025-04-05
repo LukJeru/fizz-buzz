@@ -21,4 +21,15 @@ body {
   background-color: var(--mudgreen);
   color: var(--darklila);
   font-family: "Oxygen", "Time New Roman", "sans-serif";
+  gap: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 20px;
+}
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
