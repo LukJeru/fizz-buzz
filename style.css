@@ -4,9 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --darklila: #2F2235;
+  --plum: #3F3244;
+  --lightlila: #60495A;
+  --grey: #A9ACA9;
+  --mudgreen: #BFC3BA;
+
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--mudgreen);
+  color: var(--darklila);
+  font-family: "Oxygen", "Time New Roman", "sans-serif";
 }
