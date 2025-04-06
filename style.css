@@ -41,13 +41,25 @@ form {
 button {
   padding: 16px 40px;
   border-radius: 8px;
-  border: 1px solid var(--lightlila);
+  border: 1px solid var(--darklila);
   font-weight: 600;
   background-color: var(--plum);
   color: var(--grey)
 }
 
+form input {
+  outline: none;
+  width: 40px;
+  height: 24px;
+  align-self: center;
+  caret-color: var(--plum);
+}
+
+form input:focus {
+  border: 2px solid var(--grey);
+}
 
 button:hover {
   cursor: pointer;
+  background-color: var(--lightlila);
 }
